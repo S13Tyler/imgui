@@ -7,6 +7,9 @@
     <Filter Include="sources">
       <UniqueIdentifier>{4f33ddea-9910-456d-b868-4267eb3c2b19}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Maidenless">
+      <UniqueIdentifier>{215fe642-f11f-41e5-ba4b-269cd08e0f9a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\imconfig.h">
@@ -24,6 +27,16 @@
     <ClInclude Include="..\..\backends\imgui_impl_win32.h">
       <Filter>sources</Filter>
     </ClInclude>
+    <ClInclude Include="Maidenless\MaidenlessApp.h">
+      <Filter>Maidenless</Filter>
+    </ClInclude>
+    <ClInclude Include="Maidenless\libs\MaidenlessStructs.h" />
+    <ClInclude Include="Maidenless\libs\MaidenlessEnums.h" />
+    <ClInclude Include="MyDemo.h" />
+    <ClInclude Include="Maidenless\Window_Map.h" />
+    <ClInclude Include="Maidenless\Window_QuestJournal.h" />
+    <ClInclude Include="Maidenless\Window_BuildPlanner.h" />
+    <ClInclude Include="Maidenless\Window_Database.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\imgui.cpp">
@@ -50,6 +63,11 @@
     <ClCompile Include="..\..\imgui_widgets.cpp">
       <Filter>imgui</Filter>
     </ClCompile>
+    <ClCompile Include="Maidenless\MaidenlessApp.cpp">
+      <Filter>Maidenless</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDemo.cpp" />
+    <ClCompile Include="Maidenless\Window_Map.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.txt" />
